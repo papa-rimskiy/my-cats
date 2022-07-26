@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/my-cats/static/css/main.861bd7a1.css",
-    "main.js": "/my-cats/static/js/main.5d617cd1.js",
+    "main.js": "/my-cats/static/js/main.b90947d2.js",
     "index.html": "/my-cats/index.html",
     "static/media/heart.svg": "/my-cats/static/media/heart.4e6dbb4e8412efdb7d30.svg",
     "static/media/heart_clicked.svg": "/my-cats/static/media/heart_clicked.6e844464e1e159f1f41b.svg",
     "static/media/heart_filled.svg": "/my-cats/static/media/heart_filled.8220379cb36244a7738b.svg",
     "main.861bd7a1.css.map": "/my-cats/static/css/main.861bd7a1.css.map",
-    "main.5d617cd1.js.map": "/my-cats/static/js/main.5d617cd1.js.map"
+    "main.b90947d2.js.map": "/my-cats/static/js/main.b90947d2.js.map"
   },
   "entrypoints": [
     "static/css/main.861bd7a1.css",
-    "static/js/main.5d617cd1.js"
+    "static/js/main.b90947d2.js"
   ]
 }
