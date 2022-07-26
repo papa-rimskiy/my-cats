@@ -1,13 +1,129 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h6 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
+
+.header {
+  height: 65px;
+  background-color: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+  display: flex;
+}
+
+.all_cats-active, .favorite_cats-active, .favorite_cats-inert, .all_cats-inert {
+  width: 120px;
+  height: 65px;
+  margin-left: 4.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  #1E88E5;
+  cursor: pointer;
+}
+
+.favorite_cats-active, .favorite_cats-inert  {
+  width: 175px;
+  margin-left: 0px;
+} 
+
+.favorite_cats-inert, .all_cats-inert { 
+  background-color:  #2196F3;
+}
+
+.header_text-active {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.header_text-inert {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.content_form-img {
+  margin: 25px 25px;
+  text-align: center;
+  width: 225px;
+  height: 225px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.content_form-img:hover {
+  width: 255px;
+  height: 255px;
+  margin: 0px 0px;
+  transition: 1.5s;
+}
+
+.content_form-img-likes-inert {
+  width: 40px;
+  height: 37px;
+  position: absolute;
+  top: 180px;
+  left: 190px;
+  background-image: url(../public/heart.svg);
+  display: none;
+  cursor: pointer
+}
+
+.content_form-img-likes-active {
+  width: 40px;
+  height: 37px;
+  position: absolute;
+  top: 180px;
+  left: 190px;
+  background-image: url(../public/heart_clicked.svg);
+  display: none;
+  cursor: pointer
+}
+
+.content_form-img:hover .content_form-img-likes-inert, .content_form-img:hover .content_form-img-likes-active  {
+  display: block;
+}
+
+.content_form-img-likes-inert:hover {
+  background-image: url(../public/heart_filled.svg);
+}
+
+.content__add {
+  text-align: center;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+.content__add-btn {
+  width: 170px;
+  height: 48px;
+  border-radius: 6px;
+  filter: drop-shadow(0px 3px 5px rgba(57, 20, 0, 0.08));
+  background-color: #ffffff;
+  background-color: #2196F3;
+}
+
+.content__add-btn:hover {
+  box-shadow: 4px 4px 4px 4px rgba(26, 26, 158, 0.2);
+} 
